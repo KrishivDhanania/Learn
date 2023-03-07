@@ -1,0 +1,35 @@
+h1 {
+
+ font-size: 30px; 
+ 
+}
+button{
+    font-size: 25px;
+     border: 5px red solid; 
+     background-color: black; 
+     color: antiquewhite;
+     transition-property: background-color ;
+     transition-duration: 1s;
+     transition-timing-function: ease-in-out ;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    display: inline-block;
+    background-color: red;
+    
+}
+*{
+    background-color: rgb(100, 100, 231);
+    color: antiquewhite;
+}
+hr{
+    height: 10px; background-color: black; 
+}
